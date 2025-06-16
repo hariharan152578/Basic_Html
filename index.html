@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body
+       {
+        font-family: sans-serif;
+        background: #4ebc0a;
+       }
+       nav
+       {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: beige;
+       }
+       .navbar
+       {
+        justify-content: space-around;
+       }
+       .Navbar
+       {
+        display: flex;
+        flex-direction: row;
+       }
+       a{
+            text-decoration: none;
+            justify-content: space-between;
+            margin-left: 10px;
+        }
+        
+        .about_ul
+        {
+            
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+        }
+        .about_ul td{
+            justify-content: space-between;
+            text-align:start;
+            background: #0000001e;
+            padding-left: 15px;
+            padding-right: 15px;
+
+        }
+        .Our_Servies
+        { 
+            margin-top: 25px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .Our_Servies img
+        {
+            width: 500px;
+        }
+        .Our_Servies td
+               {
+            justify-content: center;
+            text-align: center;
+            background: #0000001e;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .Contant_body
+        { 
+            margin-top: 200px;
+            margin: auto;
+            width:850px;
+            height: 1150px;
+            background-color: #bd1010;
+            padding: 200px;
+        }
+    </style>
+</head>
+<body>
+<div class="Contant_body" >
+    <div style="padding: 20px; background-color: #fff;">
+    <div id="Nav">
+        <nav class="navbar">
+            <ul>
+              <a href="#Home">Home</a>
+              <a href="#Aboutus">About</a>
+              <a href="#Our_Servies">Servies</a>
+              <a href="#Contact">Contact</a>
+            </ul>
+            <ul>
+              <a href="">Login</a>
+              <a href="">Register</a>
+            </ul>
+        </nav>
+    </div>
+    <div class="Home" id="Home">
+        <section>
+            <h1>Welcome to Company Name</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus esse sint quos velit corporis. Ratione earum repudiandae quae ut fuga.</p>
+        </section>
+    </div>
+    <div id="Aboutus">
+        <section>
+            <h1>About Us</h1>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore neque iure incidunt, quaerat fugit ratione porro consequatur ab eos esse!
+            </p>
+        </section>
+        <section class="about_ul">
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae impedit provident architecto ex enim molestias!</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, nesciunt!</li>
+                    <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, eligendi?</li>
+                </ul>
+                <table>
+                    <tr><td>fundded</td><td>2005</td></tr>
+                    <tr><td>HeadQuaters</td><td>NewYork,USA</td></tr>
+                    <tr><td>Employees</td><td>500+</td></tr>  
+                </table>
+        </section>
+    </div>
+    <div class="Our_Servies" id="Our_Servies">
+        <section>
+            <h1>Our Servies</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, iste. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ipsa?</p>
+            <table>
+                <tr>
+                    <td>Day</td>
+                    <td>Open</td>
+                    <td>Close</td>
+                </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td>Open</td>
+                    <td>Close</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>Open</td>
+                    <td>Close</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>Open</td>
+                    <td>Close</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>Open</td>
+                    <td>Close</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <img src="./assets/random.jpg" alt="checkformat">
+        </section>
+    </div>
+    <div style="display: flex; justify-content: space-around;" id="Contact">
+        <section>
+            <h1>Out Mean office</h1>
+            <table>
+                <th>Locall Xoprse</th>
+                <tr><td>Monday</td><td>trepday,abcd,abcde</td></tr>
+                <tr><td>Tuesday</td><td>Friday</td></tr>
+                <tr><td>Employees</td><td>500+</td></tr>
+            </table>
+        </section>
+        <section>
+            <table>
+                <th><h2>Get in Touch</h2></th>
+                <tr><td><label for="">Name:</label></td><td><input type="text"></td></tr>
+                <tr><td><label for="">Email:</label></td><td><input type="email"></td></tr>
+                <tr><td><label for="">Department:</label></td><td><select name="" id=""><option value="">Sales</option></select></td></tr>
+                <tr><td><label for="">Message</label></td><td><textarea name="" id="" cols="30" rows="10"></textarea></td></tr>
+                <tr><td></td><td><input type="submit" placeholder="Send Message"><button>Reset</button><td></td></tr>
+            </table>
+        </section>
+    </div>
+<footer >
+    <div style="margin: auto; width: 100px; padding: 10px; align-items: center ; background-color: antiquewhite; border-radius:25%;">
+        <a href="#Nav">Back to Top</a>
+    </div>
+</footer>
+    </div>
+</div>    
+</body>
+</html>
